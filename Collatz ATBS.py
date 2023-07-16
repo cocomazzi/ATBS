@@ -28,7 +28,7 @@ while True:
         continue
     while True:                      #call the function until it reaches the value 1, then it exits the loop
         number = collatz(number)     
-        print(number)                #print every value until it outputs 1
+        print(number)                #Print each value until it returns a value of one.
         if number == 1:
             break
             
@@ -38,7 +38,6 @@ while True:
     
 
 
-# In[ ]:
 
 
 
